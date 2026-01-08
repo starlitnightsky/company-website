@@ -1707,6 +1707,19 @@ section {
   background: #3b8af2;
 }
 
+.sms-optin button[type=submit] {
+  background: #106eea;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.sms-optin button[type=submit]:hover {
+  background: #3b8af2;
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
