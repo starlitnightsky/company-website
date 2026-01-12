@@ -641,7 +641,7 @@
       <p>Sign up to receive important updates via text message.</p>
     </div>
 
-    <form action="#" method="post">
+    <form onsubmit="return false;">
 
       <div class="row">
         <div class="col-md-6 form-group">
@@ -661,7 +661,7 @@
         <input type="tel" name="phone" class="form-control" placeholder="Mobile Phone Number" required>
       </div>
 
-      <!-- OPTIONAL SMS CONSENT CHECKBOX -->
+      <!-- OPTIONAL SMS CONSENT -->
       <div class="form-group mt-3">
         <input type="checkbox" id="smsConsent">
         <label for="smsConsent">
@@ -669,8 +669,7 @@
         </label>
       </div>
 
-      <!-- SMS DISCLOSURE (TIED TO SMS CHECKBOX) -->
-      <p style="font-size: 14px; margin-top: 10px;">
+      <p style="font-size:14px;margin-top:10px;">
         By checking the SMS consent box above, you consent to receive informational
         and service-related text messages (such as appointment updates and important
         notifications) from MiracleTalents Consulting.
@@ -682,7 +681,7 @@
         Consent to receive SMS messages is not a condition of purchase.
       </p>
 
-      <!-- REQUIRED PRIVACY POLICY & TERMS CHECKBOX -->
+      <!-- REQUIRED POLICY CONSENT -->
       <div class="form-group mt-3">
         <input type="checkbox" id="policyConsent" required>
         <label for="policyConsent">
